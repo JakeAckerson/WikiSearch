@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "WikiSearch",
+    "version": "1.0.0",
+    "description": "Searches Wikipedia for your selected text.",
+
+    "background": {
+        "service_worker": "contextMenu.js"
+    },
+
+    "icons": {
+        "16": "icon.png"
+    },
+
+    "permissions": [
+        "contextMenus"
+    ]
+}
